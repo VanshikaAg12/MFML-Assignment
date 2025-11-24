@@ -37,3 +37,16 @@ ref = gaussian_elimination_ref(A)
 print("\nRow Echelon Form (REF):")
 for row in ref:
     print([round(x, 3) for x in row])
+
+''' Enter number of equations (rows): 3
+Enter number of variables + 1 (columns in augmented matrix): 4
+Enter the augmented matrix row by row:
+Row 1: 1 2 1 7
+Row 2: 2 3 3 18
+Row 3: 0 1 2 8
+
+Row Echelon Form (REF):
+[1.0, 2.0, 1.0, 7.0]
+[0.0, -1.0, 1.0, 4.0]
+[0.0, 0.0, 3.0, 12.0]
+'''
