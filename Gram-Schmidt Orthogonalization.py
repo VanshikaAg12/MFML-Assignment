@@ -48,3 +48,13 @@ if Q:
     print("\nOrthonormal Matrix (Q):")
     for row in Q:
         print([round(x, 3) for x in row])
+
+'''Enter number of rows: 2
+Enter number of columns: 2
+Enter the matrix row by row:
+2 1
+-1 1
+
+Orthonormal Matrix (Q):
+[0.894, 0.447]
+[-0.447, 0.894]'''
