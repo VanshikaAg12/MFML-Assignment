@@ -47,3 +47,13 @@ else:
         print("\nLower Triangular Matrix L:")
         for row in L:
             print([round(x, 3) for x in row])
+'''Enter the order of the matrix: 3
+Enter the matrix row by row:
+Row 1: 4 12 -16
+Row 2: 12 37 -43
+Row 3: -16 -43 98
+
+Lower Triangular Matrix L:
+[2.0, 0.0, 0.0]
+[6.0, 1.0, 0.0]
+[-8.0, 5.0, 3.0]'''
